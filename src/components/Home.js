@@ -137,11 +137,9 @@ class Home extends React.Component {
         </section>
 
         <Main>
-          <FeatureItem qty={6} />
-
+          <FeatureItem qty={0} />
           <CategoryTab />
-
-          <RecommendedItem link={""} id=""/>
+          <RecommendedItem link={""} id="" />
         </Main>
       </>
     );
